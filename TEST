@@ -1,0 +1,23 @@
+using System;
+
+using Netica;
+
+namespace NeticaDemo
+
+{
+
+class Program
+
+{
+
+static void Main(string[] args)
+
+{
+
+Console.WriteLine("Welcome to Netica API for C# !");
+
+Netica.ApplicationClass app = new Netica.ApplicationClass();
+
+app.Visible = true;
+
+string net_file_name = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\..\\ChestClinic.dne";
