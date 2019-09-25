@@ -1,0 +1,11 @@
+use strict;
+
+my $a = 5;
+while($a > 0) {
+    print "$a ";
+    $a--;
+}
+print "\n";
+# Shows how single quotes differ from double quotes used in hello.pl
+print 'Greetings, small planet!\n';
+print q/What's cooking?\n/;
